@@ -20,4 +20,4 @@ commonAnnotations:
   supported-by: "sre@morinhun.org"
 configMapGenerator:
   - name: vote-options
-    envs: options.env
+    env: options.env
