@@ -10,7 +10,7 @@ replicas:
   - name: vote
     count: 1
 images:
-  - name: schoolofdevops/vote
+  - name: schoolofdevops/voterrrr
 newTag: v6
 namespace: instavote
 commonLabels:
