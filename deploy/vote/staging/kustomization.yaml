@@ -10,8 +10,8 @@ replicas:
   - name: vote
     count: 1
 images:
-  - name: schoolofdevops/voterrrr
-newTag: v6
+  - name: schoolofdevops/vote
+newTag: v8 # {"$imagepolicy": "flux-system:vote:tag"}
 namespace: instavote
 commonLabels:
   project: instavote
